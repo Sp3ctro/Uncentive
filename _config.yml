@@ -1,7 +1,7 @@
 # Site settings
 title:          Tale
 description:    "Minimal Jekyll theme for storytellers"
-url:            "https://chesterhow.github.io"
+url:            "https://uncentive.org"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
@@ -9,8 +9,8 @@ google_analytics: UA—XXXXXXXX-X
 # Author
 author:
   name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  url:          https://uncentive.org
+  email:        jasirlcorrespondence@gmail.com
 
 # Build settings
 markdown:       kramdown

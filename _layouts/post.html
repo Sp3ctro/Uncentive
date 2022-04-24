@@ -2,40 +2,24 @@
 layout: default
 ---
 
-<div class="post">
-  <div class="post-info">
-    <span>Written by</span>
-    {% if page.author %}
-        {{ page.author }}
-    {% else %}
-        {{ site.author.name }}
-    {% endif %}
-
-    {% if page.date %}
-      <br>
-      <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
-    {% endif %}
-  </div>
-
-  <h1 class="post-title">{{ page.title }}</h1>
-  <div class="post-line"></div>
-
-  {{ content }}
-</div>
-
-{% if page.comments %}
-  {% include disqus_comments.html %}
+<h1>
+  {{ page.title }}
+</h1>
+{% if page.image %}
+  <img src="{{ site.github.url }}/assets/img/{{ page.image }}">
 {% endif %}
-
-<div class="pagination">
-  {% if page.next.url %}
-    <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
-  {% endif %}
-  {% if page.previous.url %}
-    <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
-  {% endif %}
-
-  <a href="#" class="top">Top</a>
-</div>
-
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+<article>
+  {{ content }}
+</article>
+{% if site.hide_post_date != true %}
+  {% include post-date.html %}
+{% endif %}
+{% if site.hide_post_share != true %}
+  {% include social-sharing.html %}
+{% endif %}
+{% if site.hide_related_posts != true %}
+  {% include related-posts.html %}
+{% endif %}
+{% if site.data.settings.disqus.comments %}
+  {% include disqus.html %}
+{% endif %}

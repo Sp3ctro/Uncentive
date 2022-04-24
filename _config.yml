@@ -1,40 +1,29 @@
-# Site settings
-title:          Uncentive
-description:    "Financial Market Research & Commentary"
-url:            "https://uncentive.org"
+# Site Build Settings
 
-# Google Analytics
-google_analytics: UA—XXXXXXXX-X
+# Jekyll-paginate-v2 configuration
+#  pagination:
+#   enabled: true
+#   per_page: 5
+#   permalink: '/page/:num/'
+#   title: ':title - page :num of :max'
+#   limit: 0
+#   sort_field: 'date'
+#   sort_reverse: true
 
-# Author
-author:
-  name:         Uncentive
-  url:          https://uncentive.org
-  email:        jasirlcorrespondence@gmail.com
+# jekyll-paginate configuration
+paginate:            5
 
 # Build settings
-markdown:       kramdown
-include:
-  - _pages
+markdown:            kramdown
+highlighter:         rouge
+permalink:           /:title
+plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
-# Assets
-sass:
-  sass_dir:     _sass
-  style:        compressed
+# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+title:		           'Uncentive'
+description:	       'Stuff'
+author:              'Uncentive'
 
-# Gems
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-seo-tag
-  # - jemoji #Uncomment this to allow emoji in your post
-
-# Permalinks
-permalink:      /:year-:month-:day/:title
-paginate:       5
-
-# Excludes
-exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
-
-# Disqus (Set to your disqus id)
-disqus:         ###
+# RSS 2.0 can be used instead of Atom by uncommenting following two lines
+#feed:
+#  path: rss-feed.xml

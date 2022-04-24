@@ -8,14 +8,14 @@ google-ID: ''
 
 menu:
 - {name: 'About',   url: 'about.html'}
-- {name: 'Writing', url: 'writing.html'}
+- {name: 'Posts', url: 'posts.html'}
 - {name: 'Contact', url: 'contact.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-- {icon: 'github',     link: 'https://github.com/Sp3ctro'}
+#- {icon: 'github',     link: 'https://github.com/Sp3ctro'}
 - {icon: 'twitter',    link: 'https://twitter.com/Uncentive1'}
-- {icon: 'linkedin',   link: ''}
+#- {icon: 'linkedin',   link: ''}
 - {icon: 'envelope',   link: 'mailto:uncentive@protonmail.com'}
 - {icon: 'rss-square', link: '/feed.xml'}
 # - {icon: 'rss-square', link: '/rss-feed.xml'}

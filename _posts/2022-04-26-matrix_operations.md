@@ -93,7 +93,7 @@ $$\begin{bmatrix}
 ## Trace
 The trace of a matrix is the sum of the diagonal elements. It is denoted as $tr(A)$.
 
-## determinant
+## Determinant
 The **determinant** is a [scalar value](https://en.wikipedia.org/wiki/Scalar_(mathematics) "Scalar (mathematics)") that is a [function](https://en.wikipedia.org/wiki/Function_(mathematics)) of the entries of a [square matrix](https://en.wikipedia.org/wiki/Square_matrix "Square matrix"). In the case of a 2 × 2 matrix the determinant can be defined as: $$\begin{align}|A| = \begin{vmatrix} a & b\\c & d \end{vmatrix}=ad-bc.\end{align}$$
 
 Similarly, for a 3 × 3 matrix ''A'', its determinant is:

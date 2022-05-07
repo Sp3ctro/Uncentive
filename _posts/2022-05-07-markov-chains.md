@@ -53,9 +53,7 @@ If $I_t$ contains no leading information then $\mathbb{E}(\nu_{t+1}|I_t)=0$. The
 
 ### Stationary Distributions
 
-^790e49
-
-To make note of something related to Forecasting Transitions; a distribution $\pi$ is stationary if it satisfies $\pi = \pi\bf{A}$, which means that today's forecast distribution $\pi$ is the same as today's distribution $\bf{A}$. If the Markov Chain is [[Ergodicity | ergodic]], then the system
+To make note of something related to Forecasting Transitions; a distribution $\pi$ is stationary if it satisfies $\pi = \pi\bf{A}$, which means that today's forecast distribution $\pi$ is the same as today's distribution $\bf{A}$. If the Markov Chain is ergodic, then the system
 
 $$
 \begin{align}

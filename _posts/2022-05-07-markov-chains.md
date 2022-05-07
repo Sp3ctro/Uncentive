@@ -3,7 +3,7 @@ layout: post
 title: "Markov Chains"
 author: "Uncentive"
 categories: post
-image: markov.png
+image: <p align="center"><img src="assets/img/markov.png" /></p>
 tags: [Maths]
 ---
 A **Markov Chain** is a [stochastic model](https://en.wikipedia.org/wiki/Stochastic_model "Stochastic model") describing a [sequence](https://en.wikipedia.org/wiki/Sequence "Sequence") of possible events in which the probability of each event depends only on the state attained in the previous event.

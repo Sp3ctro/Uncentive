@@ -12,7 +12,7 @@ A **Markov Chain** is a [stochastic model](https://en.wikipedia.org/wiki/Stochas
 *From Wikipedia: A diagram representing a two-state Markov process, with the states labelled E and A. Each number represents the probability of the Markov process changing from one state to another state, with the direction indicated by the arrow. For example, if the Markov process is in state A, then the probability it changes to state E is 0.4, while the probability it remains in state A is 0.6.*
 
 - Let $s_t$ be a random variable taking values in $\{1,2,...,N\}$
-- Let $a_{i,j} = \mathbb{P}(s_t=j\|s_{t-1}=i)$ denote the transition probability from state i to state j.
+- Let $a_{i,j} = \mathbb{P}(s_t=j\|s_{t-1}=i)$ denote the transition probability from state i to state j
 - $s_t$ is a Markov Chain if $$\mathbb{P}(s_t=j\|s_{t-1}=i, s_{t-2=k,...}) = \mathbb{P}(s_t=j\|s_{t-1}=i) = a_{i,j}$$
 
 The state dynamics are fully specified by:

@@ -7,7 +7,7 @@ tags: [Maths]
 ---
 A **Markov Chain** is a [stochastic model](https://en.wikipedia.org/wiki/Stochastic_model "Stochastic model") describing a [sequence](https://en.wikipedia.org/wiki/Sequence "Sequence") of possible events in which the probability of each event depends only on the state attained in the previous event.
 
-![[Pasted image 20220501185645.png]]
+![2-state markov chain](/assets/img/markov.jpg "A 2-state markov chain, illustrated")
 
 *From Wikipedia: A diagram representing a two-state Markov process, with the states labelled E and A. Each number represents the probability of the Markov process changing from one state to another state, with the direction indicated by the arrow. For example, if the Markov process is in state A, then the probability it changes to state E is 0.4, while the probability it remains in state A is 0.6.*
 
@@ -79,7 +79,7 @@ Assume that we have received some information $I_t$ up to date $t$. Let
 $$\pi_t = [\mathbb{P}(s_t=1 \mid I_t), ..., \mathbb{P}(s_t=N \mid I_t)]$$ 
 
 
-denote the conditional probability distribution]] over the state space. What is out best forecast of $s_{t+1}$ given $I_t$? Since $\pi_t = \mathbb{E}(\xi_t \mid I_t)$, we infer that 
+denote the conditional probability distribution over the state space. What is out best forecast of $s_{t+1}$ given $I_t$? Since $\pi_t = \mathbb{E}(\xi_t \mid I_t)$, we infer that 
 
 
 $$\pi_{t+1} = \mathbb{E}(\xi_{t+1}|I_t) = \mathbb{E}(\xi_t \mid I_t)\bf{A}$$ 

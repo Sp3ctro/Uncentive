@@ -42,7 +42,7 @@ The expectation of $\xi_{t+1}$ is a vector whose *j-th* element is the probabili
 $$\mathbb{E}(\xi_{t+1}\|s=i)=(a_{i,1}, ..., a_{i,N})$$
 
 
-We infer that $\mathbb{E}(\xi_{t+1}\|s_t=1) = \xi_t\bf{A}$, or more generally that $\mathbb{E}(\xi_{t+1}\|\xi_{t}) = \xi_t\bf{A}$ and since $s_t$ follows a Markov Chain:
+We infer that $\mathbb{E}(\xi_{t+1}\given s_t=1) = \xi_t\bf{A}$, or more generally that $\mathbb{E}(\xi_{t+1}\|\xi_{t}) = \xi_t\bf{A}$ and since $s_t$ follows a Markov Chain:
 
 
 $$\mathbb{E}(\xi_{t+1}\|\xi_{1}, ..., \xi_t) = \xi_t\bf{A}$$

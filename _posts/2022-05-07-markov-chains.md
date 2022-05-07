@@ -3,11 +3,14 @@ layout: post
 title: "Markov Chains"
 author: "Uncentive"
 categories: post
+image: markov.png
 tags: [Maths]
 ---
 A **Markov Chain** is a [stochastic model](https://en.wikipedia.org/wiki/Stochastic_model "Stochastic model") describing a [sequence](https://en.wikipedia.org/wiki/Sequence "Sequence") of possible events in which the probability of each event depends only on the state attained in the previous event.
 
-![2-state markov chain](/assets/img/markov.png "A 2-state markov chain, illustrated")
+<p align="center">
+  <img src="/assets/img/markov.png" />
+</p>
 
 *From Wikipedia: A diagram representing a two-state Markov process, with the states labelled E and A. Each number represents the probability of the Markov process changing from one state to another state, with the direction indicated by the arrow. For example, if the Markov process is in state A, then the probability it changes to state E is 0.4, while the probability it remains in state A is 0.6.*
 

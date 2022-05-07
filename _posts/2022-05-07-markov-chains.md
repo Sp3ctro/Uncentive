@@ -13,9 +13,10 @@ A **Markov Chain** is a [stochastic model](https://en.wikipedia.org/wiki/Stochas
 
 - Let $s_t$ be a random variable taking values in $\{1,2,...,N\}$
 - Let $a_{i,j} = \mathbb{P}(s_t=j\|s_{t-1}=i)$ denote the transition probability from state i to state j.
-- $s_t$ is a Markov Chain if $$\mathbb{P}(s_t=j\|s_{t-1}=i, s_{t-2=k,...}) = \mathbb{P}(s_t=j|s_{t-1}=i) = a_{i,j}$$
+- $s_t$ is a Markov Chain if $$\mathbb{P}(s_t=j\|s_{t-1}=i, s_{t-2=k,...}) = \mathbb{P}(s_t=j\|s_{t-1}=i) = a_{i,j}$$
 
 The state dynamics are fully specified by:
+
 $$A = \begin{bmatrix}
 a_{1,1} & ... & a_{1,N} \\
 a_{i,1} & ... & a_{i,N} \\

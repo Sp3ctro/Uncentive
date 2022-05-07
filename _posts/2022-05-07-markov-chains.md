@@ -13,7 +13,7 @@ A **Markov Chain** is a [stochastic model](https://en.wikipedia.org/wiki/Stochas
 
 - Let $s_t$ be a random variable taking values in $\{1,2,...,N\}$
 - Let $a_{i,j} = \mathbb{P}(s_t=j \mid s_{t-1}=i)$ denote the transition probability from state i to state j
-- $s_t$ is a Markov Chain if $\mathbb{P}(s_t=j\|s_{t-1}=i, s_{t-2=k,...}) = \mathbb{P}(s_t=j\|s_{t-1}=i) = a_{i,j}$
+- $s_t$ is a Markov Chain if $\mathbb{P}(s_t=j\mid fs_{t-1}=i, s_{t-2=k,...}) = \mathbb{P}(s_t=j\mid s_{t-1}=i) = a_{i,j}$
 
 The state dynamics are fully specified by:
 
@@ -39,7 +39,7 @@ $$\xi_t = (0, ..., 0, 1_{i^{th}\\  element}, 0, ..., 1)$$
 The expectation of $\xi_{t+1}$ is a vector whose *j-th* element is the probability that $s_{t+1} = j$: 
 
 
-$$\mathbb{E}(\xi_{t+1} \| s=i)=(a_{i,1}, ..., a_{i,N})$$
+$$\mathbb{E}(\xi_{t+1} \mid s=i)=(a_{i,1}, ..., a_{i,N})$$
 
 
 We infer that $\mathbb{E}(\xi_{t+1} \| s_t=1) = \xi_t\bf{A}$, or more generally that $\mathbb{E}(\xi_{t+1}\|\xi_{t}) = \xi_t\bf{A}$ and since $s_t$ follows a Markov Chain:

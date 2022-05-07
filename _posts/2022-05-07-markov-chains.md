@@ -42,10 +42,10 @@ The expectation of $\xi_{t+1}$ is a vector whose *j-th* element is the probabili
 $$\mathbb{E}(\xi_{t+1} \mid s=i)=(a_{i,1}, ..., a_{i,N})$$
 
 
-We infer that $\mathbb{E}(\xi_{t+1} \| s_t=1) = \xi_t\bf{A}$, or more generally that $\mathbb{E}(\xi_{t+1}\|\xi_{t}) = \xi_t\bf{A}$ and since $s_t$ follows a Markov Chain:
+We infer that $\mathbb{E}(\xi_{t+1} \mid s_t=1) = \xi_t\bf{A}$, or more generally that $\mathbb{E}(\xi_{t+1}\mid \xi_{t}) = \xi_t\bf{A}$ and since $s_t$ follows a Markov Chain:
 
 
-$$\mathbb{E}(\xi_{t+1}\|\xi_{1}, ..., \xi_t) = \xi_t\bf{A}$$
+$$\mathbb{E}(\xi_{t+1} \mid \xi_{1}, ..., \xi_t) = \xi_t\bf{A}$$
 
 
 In summary this means that when $s_t$ is *i*, then $\xi_t$ will represent a row-vector of the identity matrix which corresponds to the relevant transition probability. And when multiplied by the transition matrix gives you the transition probability. But of course, as Markov Chains only depend on the most recent state, the expectation of the next period's $\xi$ value $\xi_{t+1}$ is simply equal to the current $\xi_t$ value times the transition matrix. It's essentially like an over-complicated lookup function.
@@ -55,7 +55,7 @@ In summary this means that when $s_t$ is *i*, then $\xi_t$ will represent a row-
 The probability that $s_{t+2}=j$ given $s_t=1$ by:
 
 
-$$\mathbb{P}(s_{t+2}=j\|s_t=i)=a_{i,1}a_{1,j}+...+a_{i,N}a_{N,j}$$ 
+$$\mathbb{P}(s_{t+2}=j \mid s_t=i)=a_{i,1}a_{1,j}+...+a_{i,N}a_{N,j}$$ 
 
 
 which can also be recognized as the *i-th* row and *j-th* column element of the transition matrix squared $\bf{A}^2$. The odds of two things happening one after the other is simply the odds squared, which is what we are saying here.
@@ -65,7 +65,7 @@ which can also be recognized as the *i-th* row and *j-th* column element of the 
 In general, the probability that $s_{t+m}=j$ given $s_t=i$ is given by the row j, column i element of $\bf{A}^m$: 
 
 
-$$\mathbb{E}(\xi_{t+m}\|\xi_t, \xi_{t-1}, ..., \xi_1) = \xi_t \bf{A}^m$$
+$$\mathbb{E}(\xi_{t+m} \mid \xi_t, \xi_{t-1}, ..., \xi_1) = \xi_t \bf{A}^m$$
 
 
 Ultimately we are locating the appropriate probability in the transition matrix and raising it to the nth power depending on how many steps forwards we are going.
@@ -76,16 +76,16 @@ Ultimately we are locating the appropriate probability in the transition matrix 
 Assume that we have received some information $I_t$ up to date $t$. Let 
 
 
-$$\pi_t = [\mathbb{P}(s_t=1\|I_t), ..., \mathbb{P}(s_t=N\|I_t)]$$ 
+$$\pi_t = [\mathbb{P}(s_t=1 \mid I_t), ..., \mathbb{P}(s_t=N \mid I_t)]$$ 
 
 
-denote the conditional probability distribution]] over the state space. What is out best forecast of $s_{t+1}$ given $I_t$? Since $\pi_t = \mathbb{E}(\xi_t\|I_t)$, we infer that 
+denote the conditional probability distribution]] over the state space. What is out best forecast of $s_{t+1}$ given $I_t$? Since $\pi_t = \mathbb{E}(\xi_t \mid I_t)$, we infer that 
 
 
-$$\pi_{t+1} = \mathbb{E}(\xi_{t+1}|I_t) = \mathbb{E}(\xi_t\|I_t)\bf{A}$$ 
+$$\pi_{t+1} = \mathbb{E}(\xi_{t+1}|I_t) = \mathbb{E}(\xi_t \mid I_t)\bf{A}$$ 
 
 
-If $I_t$ contains no leading information then $\mathbb{E}(\nu_{t+1}\|I_t)=0$. The forecast state distribution is therefore 
+If $I_t$ contains no leading information then $\mathbb{E}(\nu_{t+1} \mid I_t)=0$. The forecast state distribution is therefore 
 
 
 $$\pi_{t+1} = \pi_t\bf{A}$$ 

@@ -27,7 +27,10 @@ a_{N,1} & ... & a_{N,N}
 Since $\sum_{j}\mathbb{P}(s_t=j\|s_{t-1=i})$, the elements of each row add up to unity: $a_{i,1} + ... + a_{i,N} = 1$.
 
 
-Let $e_i$ denote the *i*-th row vector of the *N x N* identity matrix. Let $\xi_t$ denote a *1 x N* row vector that is equal to $e_i$ when the state $s_t$ is equal to *i*: $$\xi_t = (0, ..., 0, 1_{i^{th}\\  element}, 0, ..., 1)$$ 
+Let $e_i$ denote the *i*-th row vector of the *N x N* identity matrix. Let $\xi_t$ denote a *1 x N* row vector that is equal to $e_i$ when the state $s_t$ is equal to *i*: 
+
+
+$$\xi_t = (0, ..., 0, 1_{i^{th}\\  element}, 0, ..., 1)$$ 
 
 
 The expectation of $\xi_{t+1}$ is a vector whose *j-th* element is the probability that $s_{t+1} = j$: $$\mathbb{E}(\xi_{t+1}\|s=i)=(a_{i,1}, ..., a_{i,N})$$ We infer that $\mathbb{E}(\xi_{t+1}\|s_t=1) = \xi_t\bf{A}$, or more generally that $\mathbb{E}(\xi_{t+1}\|\xi_{t}) = \xi_t\bf{A}$ and since $s_t$ follows a Markov Chain:$$\mathbb{E}(\xi_{t+1}\|\xi_{1}, ..., \xi_t) = \xi_t\bf{A}$$

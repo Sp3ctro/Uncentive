@@ -29,7 +29,7 @@ We're looking at 5[^1] years of data. As you can see, there are ups and downs - 
 
 But once you're trading live, with real money, are you sure you'd be this confident?
 
-In my case, my strategy's portfolio included the CME Heating Oil contract. For me that's a big trade. At current rates it exposes the buyer (or seller) to about \$140k USD of Heating Oil. It currently has an annualised standard deviation of ~%40. A 1-day, 1 standard deviation move is therefore around ~\$3.5k USD. That's the expected 1-day, 1 standard deviation of my entire strategy *not including* CME Heating Oil. This is a huge position for me to trade. "But look at the long-run backtest!" I say to myself. "Sure it's a big position and sure it swings a lot, but the long run behavior is worth it."
+In my case, my strategy's portfolio included the CME Heating Oil contract. For me that's a big trade. At current rates it exposes the buyer (or seller) to about \$140k USD of Heating Oil. It currently has an annualised standard deviation of ~%40. A 1-day, 1 standard deviation move is therefore around \$3.5k USD. That's the expected 1-day, 1 standard deviation of my entire strategy *not including* CME Heating Oil. This is a huge position for me to trade. "But look at the long-run backtest!" I say to myself. "Sure it's a big position and sure it swings a lot, but the long run behavior is worth it."
 
 I was nowhere near this sanguine when I turned the strategy on in live trading and went Long CME:HO along with 5 other grown-up sized contracts...
 

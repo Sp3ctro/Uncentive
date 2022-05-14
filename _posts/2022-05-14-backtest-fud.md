@@ -29,13 +29,13 @@ We're looking at 5[^1] years of data. As you can see, there are ups and downs - 
 
 But once you're trading live, with real money, are you sure you'd be this confident?
 
-In my case, my strategy's portfolio included the CME Heating Oil contract. For me that's a big trade. At current rates it exposes the buyer (or seller) to about $140,000 worth of Heating Oil, which currently has an annualised standard deviation of ~%40. A 1-day, 1 standard deviation move is about ~$3.5k USD. That's the expected 1-day, 1 standard deviation of my entire strategy *not including* CME Heating Oil. This is a huge position for me to trade. "But look at the long-run backtest!" I say to myself. "Sure it's a big position and sure it swings a lot, but the long run behavior is worth it."
+In my case, my strategy's portfolio included the CME Heating Oil contract. For me that's a big trade. At current rates it exposes the buyer (or seller) to about \$140,000 worth of Heating Oil, which currently has an annualised standard deviation of ~%40. A 1-day, 1 standard deviation move is about ~\$3.5k USD. That's the expected 1-day, 1 standard deviation of my entire strategy *not including* CME Heating Oil. This is a huge position for me to trade. "But look at the long-run backtest!" I say to myself. "Sure it's a big position and sure it swings a lot, but the long run behavior is worth it."
 
 I was nowhere near this sanguine when I turned the strategy on in live trading and went Long CME:HO along with 5 other grown-up sized contracts...
 
 **Day 1:** By 11am I'm down $2k on HO. "Well, that's just a few hours in. I can't determine anything based on 1 day, let alone 2 hours".
 
-**Day 2:** I check my PnL twice as often as Day 1. At 10am I'm down $3k on HO. "Ok this is starting to not be enjoyable...I guess this is how it's going to be". I look at the backtests again. I validate that the 95%ile 1 day VaR is x, and that a 5 standard deviation move based on the observed returns distribution is y.
+**Day 2:** I check my PnL twice as often as Day 1. At 10am I'm down \$3k on HO. "Ok this is starting to not be enjoyable...I guess this is how it's going to be". I look at the backtests again. I validate that the 95%ile 1 day VaR is x, and that a 5 standard deviation move based on the observed returns distribution is y.
 
 **Day 3:** HO is flat. But I check my PnL several times per hour. I dread the idea of my portfolio having a third loss of the magnitude i'm now experiencing.
 

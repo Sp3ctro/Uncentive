@@ -6,8 +6,6 @@ categories: post
 tags: [Backtesting]
 ---
 
-# Backtests don't account for Fear, Uncertainty and Doubt
-
 Backtesting is an important step in creating trading automated or systematic strategies. Google "best practices for backtesting" and you'll find many article or blog post cautioning against data snooping, over-fitting, and look-ahead bias. Look-ahead bias in particular specifically is defined according to Investopedia as:
 
 > [...] using information or data in a study or simulation that would not have been known or available during the period being analyzed.
@@ -31,11 +29,11 @@ In my case, my strategy's portfolio included the CME Heating Oil contract. For m
 
 I was nowhere near this sanguine when I turned the strategy on in live trading and went Long CME:HO along with 5 other grown-up sized contracts...
 
-**Day 1:** By 11am I'm down $2k on HO. "Well, that's just a few hours in. I can't determine anything based on 1 day, let alone 2 hours".
+**Day 1:** By 11am I'm down \$2k on HO. "Well, that's just a few hours in. I can't determine anything based on 1 day, let alone 2 hours".
 
-**Day 2:** I check my PnL twice as often as Day 1. At 10am I'm down \$3k on HO. "Ok this is starting to not be enjoyable...I guess this is how it's going to be". I look back at the backtests, I validate that the 95%ile 1 day VaR is $\$x$, and that a 5 standard deviation move based on the observed returns distribution is $\$y$.
+**Day 2:** I check my PnL twice as often as Day 1. At 10am I'm down \$3k on HO. "Ok this is starting to not be enjoyable...I guess this is how it's going to be". I look at the backtests again. I validate that the 95%ile 1 day VaR is $x$, and that a 5 standard deviation move based on the observed returns distribution is $y$.
 
-**Day 3:** HO is flat. But I check my PnL several times each hour. I dread the idea of my portfolio having a third loss of the magnitude i'm now experiencing.
+**Day 3:** HO is flat. But I check my PnL several times per hour. I dread the idea of my portfolio having a third loss of the magnitude i'm now experiencing.
 
 **Day 4:** HO has resumed selling off. I am now questioning myself. "Is my backtest actually representative?" and "What if my backtest was just a lucky period for the strategy?". "If I could see into the future and know whether things get better, i'd happily just deal with this."
 

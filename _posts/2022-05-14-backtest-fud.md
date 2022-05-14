@@ -6,7 +6,7 @@ categories: post
 tags: [Backtesting]
 ---
 
-Backtesting is an important step in creating trading automated or systematic strategies. Google "best practices for backtesting" and you'll find many an article or blog post cautioning against data snooping, over-fitting, and look-ahead bias. Look-ahead bias in particular specifically is defined according to Investopedia as:
+Backtesting is an important step in creating trading automated or systematic strategies. Google "best practices for backtesting" and you'll find many an article or blog post cautioning against data snooping, over-fitting, and look-ahead bias. Look-ahead bias in particular is defined according to Investopedia as:
 
 > [...] using information or data in a study or simulation that would not have been known or available during the period being analyzed.
 

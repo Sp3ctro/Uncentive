@@ -3,10 +3,10 @@ layout: post
 title: "Backtests don't account for Fear, Uncertainty and Doubt"
 author: "Uncentive"
 categories: post
-tags: [Maths]
+tags: [Backtesting]
 ---
 
-# Risk Tolerance Look-Ahead Bias in Backtesting
+# Backtests don't account for Fear, Uncertainty and Doubt
 
 Backtesting is an important step in creating trading automated or systematic strategies. Google "best practices for backtesting" and you'll find many article or blog post cautioning against data snooping, over-fitting, and look-ahead bias. Look-ahead bias in particular specifically is defined according to Investopedia as:
 
@@ -21,13 +21,13 @@ What do our the "emotional" risk tolerance level have to do with backtests?
 ## Heating Oil humbled me
 I recently put a trend-focused strategy live. When designing the strategy I backtested thoroughly and observed many graphs which looked approximately like this...
 
-![[Screenshot from 2022-05-14 22-16-10.png]]
+<p align="center"><img src="assets/img/backtest_fud.png" /></p>
 
 We're looking at 5[^1] years of data, and as you can see, there are ups and downs - slow and fast alike. Somewhere in there is a 1-day loss of over 10% of the starting capital. During another period, there's a 100% gain followed by a sharp mean-reversion resulting in a 40% peak-to-valley loss. When you look at the graph - which shows the long(ish)-run behavior of the strategy - you might say to myself "yeah, this will be volatile, but I can stick with it because I know the long run results will be great."
 
 But once you're trading live, with real money, are you sure you'd be this confident?
 
-In my case, my strategy's portfolio included the CME Heating Oil contract. For me that's a big trade. At current rates it exposes the buyer (or seller) to about $140,000 worth of Heating Oil, which currently has an annualised standard deviation of ~%40. A 1-day, 1 standard deviation move is about ~$3.5k USD. That's the expected 1-day, 1 standard deviation of my entire strategy *not including* CME Heating Oil. This is a huge position for me to trade. "But look at the long-run backtest!" I say to myself. "Sure it's a big position and sure it swings a lot, but the long run behavior is worth it."
+In my case, my strategy's portfolio included the CME Heating Oil contract. For me that's a big trade. At current rates it exposes the buyer (or seller) to about \$140,000 worth of Heating Oil, which currently has an annualised standard deviation of ~%40. A 1-day, 1 standard deviation move is about ~\$3.5k USD. That's the expected 1-day, 1 standard deviation of my entire strategy *not including* CME Heating Oil. This is a huge position for me to trade. "But look at the long-run backtest!" I say to myself. "Sure it's a big position and sure it swings a lot, but the long run behavior is worth it."
 
 I was nowhere near this sanguine when I turned the strategy on in live trading and went Long CME:HO along with 5 other grown-up sized contracts...
 

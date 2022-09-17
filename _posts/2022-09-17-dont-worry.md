@@ -25,11 +25,11 @@ Humans exhibit a behavioral trait called Loss Aversion[^2].
 
 In English, this means that people *in general* have stronger feelings of anguish resulting from a loss than happiness resulting from a win.  
   
-Take for example a coin toss game where you win \$10 if you guess the side of the coin correctly, but lose \$10 if you guess incorrectly.
+Take for example a coin toss game where you win `$`10 if you guess the side of the coin correctly, but lose `$`10 if you guess incorrectly.
 
-Loss Aversion implies that you'll feel more emotional pain from losing \$1.00 than the comparative joy you'd feel from winning \$10.
+Loss Aversion implies that you'll feel more emotional pain from losing `$`10 than the comparative joy you'd feel from winning `$`10.
 
-In fact, Loss Aversion implies that for you to have the same intensity of feelings between the two outcomes, you might have to win much more (e.g. \$20), for every loss (e.g. \$10) for you to be indifferent.
+In fact, Loss Aversion implies that for you to have the same intensity of feelings between the two outcomes, you might have to win much more (e.g. `$`20), for every loss (e.g. `$`10) for you to be indifferent.
   
 This lop-sided impact arising from Loss Aversion can discourage you from holding investments for the long run, even if the odds are in your favor.  
   

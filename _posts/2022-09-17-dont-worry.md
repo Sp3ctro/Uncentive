@@ -6,7 +6,6 @@ categories: post
 tags: [Investing]
 ---
 
-# Don't obsess over your long(er)-term investments
 Some people are in the habit of checking their phone or email every minute or two. 
 
 Similarly, I have colleagues, friends and family who check their slow-moving investments - like their 401ks - on a near-daily basis. 

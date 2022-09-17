@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Don't obsess over your long(er)-term investments"
+author: "Uncentive"
+categories: post
+tags: [Investing]
+---
+
 # Don't obsess over your long(er)-term investments
 Some people are in the habit of checking their phone or email every minute or two. 
 

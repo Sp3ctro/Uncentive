@@ -25,11 +25,11 @@ Humans exhibit a behavioral trait called Loss Aversion[^2].
 
 In English, this means that people *in general* have stronger feelings of anguish resulting from a loss than happiness resulting from a win.  
   
-Take - for example - a coin toss game where you win $1 if you guess the side of the coin correctly, but where lose $1 if you guess incorrectly. 
+Take - for example - a coin toss game where you win \$1 if you guess the side of the coin correctly, but where lose \$1 if you guess incorrectly. 
 
-Loss Aversion implies that you'll feel more emotional pain from losing $1 than the comparative joy you'd feel from winning $1.
+Loss Aversion implies that you'll feel more emotional pain from losing \$1 than the comparative joy you'd feel from winning \$1.
 
-In fact, Loss Aversion implies that for you to have the same intensity of feelings between the two outcomes, you might have to win much more (e.g. $2), for every loss (e.g. $1) for you to be indifferent.
+In fact, Loss Aversion implies that for you to have the same intensity of feelings between the two outcomes, you might have to win much more (e.g. \$2), for every loss (e.g. \$1) for you to be indifferent.
   
 This lop-sided impact arising from Loss Aversion can discourage you from holding investments for the long run, even if the odds are in your favor.  
   
@@ -49,19 +49,19 @@ To add more complexity, the "shape" of positive investment performance usually l
 Most commonly, the daily returns in the types of investments in pension plans are often negatively skewed.  
   
 Using very simple figures, this means that - for example...  
-- on 51% of days, you'll win $10  
-- on 48% of days, you'll lose $10.10  
-- on 1% of days, you'll lose $40  
+- on 51% of days, you'll win /$10  
+- on 48% of days, you'll lose /$10.10  
+- on 1% of days, you'll lose /$40  
   
 Over a long timeframe, this averages out to  
-- on days you win, you'll make $5.10  
-- on days you lose, you'll lose $5.05
+- on days you win, you'll make /$5.10  
+- on days you lose, you'll lose /$5.05
 
 You have "winning" days 51% of the time, and "losing" days 49% of the time
 
-So over the long-term, you'll average out to make $0.05 per day  
+So over the long-term, you'll average out to make /$0.05 per day  
   
-But if you check your damn pension every day, you're not going to experience this "long timeframe" behavior of earning $0.05 per day. 
+But if you check your damn pension every day, you're not going to experience this "long timeframe" behavior of earning /$0.05 per day. 
 
 You're going to experience the lop-sided negative skewed behavior of risk-premium-based assets.
 
@@ -71,8 +71,8 @@ And what's worse, is that given the negative skew of your investment, the "losin
 
 ## A stylistic example...  
 If your loss aversion is 10%* - you feel the pain of a loss 10% more than the same gain - it will feel like this...  
-- on days you win, you'll make $5.10  
-- on days you lose, you'll lose $5.05, but it'll feel like you've lost **$5.56** ($5.05 + 10%)  
+- on days you win, you'll make /$5.10  
+- on days you lose, you'll lose /$5.05, but it'll feel like you've lost **$5.56** ($5.05 + 10%)  
   
 So when factoring in loss aversion, if you observe each of these daily losses individually (checking your account daily), it will be difficult to rationalize that you're making money over the long term, even if the figures speak for themselves objectively.  
   

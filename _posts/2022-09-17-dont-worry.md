@@ -51,15 +51,15 @@ Most commonly, the daily returns in the types of investments in pension plans ar
 Using very simple figures, this means that - for example...  
 - on 51% of days, you'll win \$10
 - on 48% of days, you'll lose \$10.10
-- on 1% of days, you'll lose \$40
+- on 1% of days, you'll lose \$20
   
 Over a long timeframe, this averages out to  
 - on days you win, you'll make \$5.10  
-- on days you lose, you'll lose \$5.05
+- on days you lose, you'll lose approximately \$5.05
 
 You have "winning" days 51% of the time, and "losing" days 49% of the time
 
-So over the long-term, you'll average out to make \$0.05 per day.
+So over the long-term, you'll average out to make about \$0.05 per day.
   
 But if you check your damn pension every day, you're not going to experience this "long timeframe" behavior of earning \$0.05 per day. 
 
@@ -72,7 +72,7 @@ And what's worse, is that given the negative skew of your investment, the "losin
 ## A stylistic example...  
 If we define your loss aversion level as something like 10% - where you feel the pain of a loss 10% more than the same gain - it will feel like this...  
 - on days you win, you'll make \$5.10  
-- on days you lose, you'll lose \$5.05, but it'll feel like you've lost **\$5.56** (\$5.05 + 10%)  
+- on days you lose, you'll lose \$5.05, but it'll feel like you've lost **\$5.55** (\$5.05 + 10%)  
   
 So when factoring in loss aversion, if you observe each of these daily losses individually (checking your account daily), it will be difficult to rationalize that you're making money over the long term, even if the figures speak for themselves objectively.  
   

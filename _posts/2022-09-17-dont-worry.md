@@ -92,10 +92,10 @@ Let's say that when you have a second loss in a row, your loss aversion increase
 
 <p align="center"><img src="assets/img/dont_worry/VTI Cumulative Returns + Loss Aversion + Consecutive Loss Add-on.png" /></p>
   
-So even with one of the most reliable risk premiums on the planet, and with the most broadly diversified and cheapest way to access it, over a long period of time, using this naively simply Loss Aversion model, the *only* palatable frequency on which you should observe your results is monthly - daily and weekly *feel* like you're losing money.
+So even with one of the most reliable risk premiums on the planet, and with the most broadly diversified and cheapest way to access it, over a long period of time, using this naively simple Loss Aversion model, the *only* palatable frequency on which you should observe your results is monthly - daily and weekly *feel* like you're losing money.
 
 ## So what can I do? 
-First of all, as long as you feel your risk is managed and that you have your ideal assets allocation - try to let your portfolio do its thing by leaving it alone. 
+First of all, as long as you feel your risk is managed and that you have your ideal asset allocations - try to let your portfolio do its thing by leaving it alone. 
 
 If you rebalance your portfolio on a quarterly basis, and if you're confident in the approach you're using; perhaps try to only look at it at those quarterly rebalance events, and not in between. 
 

@@ -78,13 +78,13 @@ So when factoring in loss aversion, if you observe each of these daily losses in
   
 This is especially true when you have a sell-off in risk assets and you experience day after day of losses.  
   
-Here's what it "feels" like to own Vanguard's Global Equities ETF (VTI) over a long period of time, with a loss aversion of 10%, whether you check its performance daily, weekly, or monthly.  
+Here's what it "feels" like to own Vanguard's Total Stock Market ETF (VTI) over a long period of time, with this conceptual loss aversion of 10%, whether you check its performance daily, weekly, or monthly.  
 
 <p align="center"><img src="assets/img/dont_worry/VTI Cumulative Returns + Loss Aversion.png" /></p>
 
-This is a hyper-diversified basket of global equities; possibly the broadest and most diversified there is.  
+This is a diversified basket of equities; among the broadest and most diversified there is.  
   
-In terms of earning the Equity Risk Premium, there aren't many (if any) better options than this.  
+In terms of earning the Equity Risk Premium, there aren't many better options than this.  
   
 But even worse, you're going to feel even more pain if you experience consecutive strings of losses one after another, which have been shown to compound each other.  
   

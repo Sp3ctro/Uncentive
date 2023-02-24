@@ -5,7 +5,6 @@ author: "Uncentive"
 categories: post
 tags: [Investing, Factors]
 ---
-
 Factor Portfolios, also known as Style Portfolios, offer an alternative approach to investment decision-making. They originated from the Fama French 3-Factor Model and were later extended to the 4 and 5-Factor Models. These portfolios, which are often market-neutral, aim to isolate specific themes, styles, or "anomalies" such as "Small-Sized Companies" or "Cheap Companies" rather than investing in a particular market such as U.S. or APAC stocks.
 
 By focusing on specific factors, investors can potentially benefit from diversification and risk reduction, as well as potentially higher returns. For instance, the Small Size factor has historically outperformed the overall market, while the Value factor has exhibited long-term out-performance compared to Growth. By constructing a portfolio based on these factors, investors can potentially generate higher returns while mitigating some of the risks associated with investing in a single market.

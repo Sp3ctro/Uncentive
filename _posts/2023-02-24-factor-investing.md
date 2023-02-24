@@ -1,4 +1,4 @@
---
+---
 layout: post
 title: "An Introduction to Factor Investing"
 author: "Uncentive"

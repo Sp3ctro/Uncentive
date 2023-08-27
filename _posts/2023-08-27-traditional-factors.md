@@ -5,7 +5,7 @@ author: "Uncentive"
 categories: post
 tags: [Investing, Factors]
 ---
-In the first post in this series, we introduced the concept of factor investing and talked about the origin of the concept. Building upon that foundation, this article will direct our focus towards the "traditional" collection of investment factors that have remained prominent throughout the existence of this concept. The code discussed within this article will be made available via a link provided at its conclusion.
+In the [first post](https://uncentive.org/factor-investing) in this series, we introduced the concept of factor investing and talked about the origin of the concept. Building upon that foundation, this article will direct our focus towards the "traditional" collection of investment factors that have remained prominent throughout the existence of this concept. The code discussed within this article will be made available via a link provided at its conclusion.
 
 ## Getting Data
 One of the main sources of data for the "traditional" set of risk factors is Ken French's "[Data Library](https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html)" website. Ken - as you may remember from the previous post -  is the co-creator of the "Fama-French Three Factor Model" alongside Eugene Fama. Ken provides a great service to the finance world by curating and offering these data for general use - his data library is used regularly by academics and practitioners alike. Ken's site offers data in the form of text files which provide daily, or monthly returns. 

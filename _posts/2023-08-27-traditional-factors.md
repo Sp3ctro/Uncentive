@@ -214,7 +214,7 @@ In 2015, Eugene Fama and Ken French published an extension of their Three Factor
 
 So now we have to update our arithmetic again to account for the two new explanatory factors... 
 
-$$R_{i,t} - R_{f,t} = \beta_{i} \times (R_{M,t} - R_{f,t}) + s_{i} \times SMB_{t} + h_{i} \times HML_{t} + p_i \times RMW_{t} + g_i \times CMA_{t} + \epsilon_{i,t}$$
+$$R_{i,t} - R_{f,t} = \beta_{i}(R_{M,t} - R_{f,t}) + s_{i}SMB_{t} + h_{i}HML_{t} + p_iRMW_{t} + g_iCMA_{t} + \epsilon_{i,t}$$
 
 where:
 
@@ -227,7 +227,7 @@ where:
 -   $h_{i}$ is the sensitivity of asset $i$ to the HML factor.
 -   $HML_{t}$ is the return difference between high and low book-to-market equity firms at time $t$.
 -   $p_{i}$ is the sensitivity of asset $i$ to the RMW factor.
--   $RMW_{t}$ is the return difference between high and low profitability firms at the time$t$.
+-   $RMW_{t}$ is the return difference between high and low profitability firms at the time $t$.
 -   $g_{i}$ is the sensitivity of asset $i$ to the CMA factor.
 -   $CMA_{t}$ is the return difference between high and low growth firms at the time $t$.
 -   $\epsilon_{i,t}$ is the idiosyncratic error term.

@@ -304,6 +304,7 @@ Behaviourally we could come up with some explanations for this...
 - 2007 to 2009: the credit crunch causes a "flight to quality" - investors reallocate funds to safer companies to mitigate risk
 - 2022: interest rates rise causing funding challenges for high growth companies, resulting in losses for tech stocks, echoing the 2000 to 2003 period.
 
+## What's next?
 In the next post, we'll look at various approaches to performing factor regressions, which should illustrate the reason why these factors are so useful in explaining the sources or drivers of returns for investors. In the post after that, we'll look at some "non-traditional" investment factors and talk about how to make sense of the "Factor Zoo".
 
 The code for this post is available on github [here](https://github.com/Sp3ctro/Uncentive/blob/master/code/exploring_traditional_factors.ipynb).

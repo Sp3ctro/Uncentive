@@ -34,7 +34,7 @@ where:
 - $s_{i}$ is the sensitivity of asset $i$ to the SMB factor
 - $HML_{t}$ is the return difference between high and low book-to-market equity firms at time $t$
 - $h_{i}$ is the sensitivity of asset $i$ to the HML factor
-- $\epsilon_{i,t}$ is the idiosyncratic error term.
+- $\epsilon_{i,t}$ is the idiosyncratic error term
 
 In general, this model is asserting that it can explain all asset price returns. It's saying that all returns ($R_{i,t} - R_{f,t}$) are made up of some amount ($\beta_{i}$) of market return ($R_{M,t} - R_{f,t}$), some amount ($s_{i}$) of Size return ($SMB_{t}$), and some amount ($h_{i}$) of Value return ($HML_{t}$), plus some random variation ($\epsilon_{i,t}$) that can be positive or negative but that averages out to be zero in the long run. But that contradicts what our hedge fund manager wants, which is returns which are not-explainable by a model like this. We can add a term called "alpha" into the model to reflect this...
 
@@ -133,10 +133,10 @@ There are a lot of figures here but the important ones are listed in the middle 
 The rows of this panel are the explanatory variables that we discussed previously. "const" is short for "constant" which is another way of referring to the $\alpha$ term that we spoke about earlier. Mkt-RF, SMB, HML have also been explained earlier in this post. The values in the columns merit a little more explanation...
 
 - coef: short for coefficient, also known as the "beta" coefficient for the given variable. This is the proportion of how much of each of the explanatory variable affects the return. For example in this case the panel shows that the contribution of the Market Excess Return (Mkt-RF) is 1.3390 times its normal value
-- std err: short for standard error, represents a 1-standard deviation variation of the coefficient value. For example the panel says that the Market Excess Return (Mkt-RF) coefficient is 1.3390 and it varies around that number by 0.117 (so typically between 1.222 and 1.456).
-- t: short for t-statistic, or test statistic.
-- P > \|t\|: short for p-value.
-- [0.025 - 0.975]: The values we can observe within these percentiles of the data.
+- std err: short for standard error, represents a 1-standard deviation variation of the coefficient value. For example the panel says that the Market Excess Return (Mkt-RF) coefficient is 1.3390 and it varies around that number by 0.117 (so typically between 1.222 and 1.456)
+- t: short for t-statistic, or test statistic
+- P > \|t\|: short for p-value
+- \[0.025 - 0.975\]: The values we can observe within these percentiles of the data
 
 So plugging these values into our Three Factor model... this regression claims the following...
 

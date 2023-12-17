@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Measuring Factor Exposure"
+author: "Uncentive"
+categories: post
+tags: [Investing, Factors]
+---
 In the first installment of this series, we introduced the concept of risk factors in the realm of finance and investing, and explored their historical backgrounds. In the second post, we examined the specific "traditional" factor exposures—such as Size and Value—individually, illustrating their return patterns. In this article, our focus will shift towards understanding how to quantify a stock's or a portfolio's exposure to these factors. Additionally, we'll explain some of the reasons motivating such measurements, both in personal and professional contexts.
 
 ## Why factor exposure might be important to you
@@ -8,6 +15,8 @@ Now, let's think about the opposite perspective of someone who might want to pro
 o seek out multiple avenues—both qualitative and quantitative—to validate that your fund is replicating Value returns as intended.
 
 In both these scenarios, you might perform a factor regression to determine whether or not the returns of a portfolio or stock have significant exposure to one or more risk factors.
+
+There are - of course - other reasons, such as wanting to control our risk exposure in general for risk management purposes. But let's play with these two scenarios for now.
 
 ## What are we measuring?
 

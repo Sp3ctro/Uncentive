@@ -5,7 +5,7 @@ author: "Uncentive"
 categories: post
 tags: [Investing, Factors]
 ---
-In the first installment of this series, we introduced the concept of risk factors in the realm of finance and investing, and explored their historical backgrounds. In the second post, we examined the specific "traditional" factor exposures—such as Size and Value—individually, illustrating their return patterns. In this article, our focus will shift towards understanding how to quantify a stock's or a portfolio's exposure to these factors. Additionally, we'll explain some of the reasons motivating such measurements, both in personal and professional contexts.
+In the <a href="https://uncentive.org/factor-investing">first installment</a> of this series, we introduced the concept of risk factors in the realm of finance and investing, and explored their historical backgrounds. In the <a href="https://uncentive.org/factor-investing">second post</a>, we examined the specific "traditional" factor exposures—such as Size and Value—individually, illustrating their return patterns. In this article, our focus will shift towards understanding how to quantify a stock's or a portfolio's exposure to these factors. Additionally, we'll explain some of the reasons motivating such measurements, both in personal and professional contexts.
 
 ## Why factor exposure might be important to you
 

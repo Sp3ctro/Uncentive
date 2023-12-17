@@ -92,7 +92,8 @@ So for example if I run `gather_stock_factor_data('AMZN')` I will get a datafram
 | 2023-04-30 | 2.07 | 0.61 | -2.56 | -0.03 | 2.31 | 2.85 | 0.35 |
 | 2023-05-31 | 13.41 | 0.35 | -0.43 | -7.8 | -1.76 | -7.2 | 0.36 |
 | 2023-06-30 | 7.8 | 6.46 | 1.33 | -0.2 | 2.2 | -1.75 | 0.4 |
-So I have data on a stock - Amazon (AMZN), and the Factor returns for the same periods in the other columns. I now need to perform an Ordinary Least Squares regression to measure the beta coefficients for each of the risk factors, and the alpha term that we talked about in the previous section. We can do this in python using Statsmodels and the following function...
+
+So I have data on a stock - Amazon (AMZN), and the Factor returns for the same periods in the other columns. I now need to perform an Ordinary Least Squares regression to measure the beta coefficients for each of the risk factors, and the alpha term that we talked about in the previous section. We can do this in python using Statsmodels and the following function... 
 
 ```python
 def point_in_time_regression(ticker, start_date='1960-01',
@@ -134,8 +135,8 @@ The rows of this panel are the explanatory variables that we discussed previousl
 - coef: short for coefficient, also known as the "beta" coefficient for the given variable. This is the proportion of how much of each of the explanatory variable affects the return. For example in this case the panel shows that the contribution of the Market Excess Return (Mkt-RF) is 1.3390 times its normal value
 - std err: short for standard error, represents a 1-standard deviation variation of the coefficient value. For example the panel says that the Market Excess Return (Mkt-RF) coefficient is 1.3390 and it varies around that number by 0.117 (so typically between 1.222 and 1.456).
 - t: short for t-statistic, or test statistic.
-- P > |t|: short for p-value.
-- [0.025 - 0.975]:
+- P > \|t\|: short for p-value.
+- [0.025 - 0.975]: The values we can observe within these percentiles of the data.
 
 So plugging these values into our Three Factor model... this regression claims the following...
 
@@ -157,7 +158,7 @@ From what we know about Apple, that was probably expected. Let's see how Berkshi
 
 Some high level statements about Berkshire Hathaway might be...
 
-- BRK-A shows a positive alpha of 0.2059 but its not statistically significant - the value in the P > |t| column implies that there is a 41.9% likelihood that the alpha value of 0.2059 occurred by chance
+- BRK-A shows a positive alpha of 0.2059 but its not statistically significant - the value in the P > \|t\| column implies that there is a 41.9% likelihood that the alpha value of 0.2059 occurred by chance
 - BRK-A's "beta" to the market is 0.72, so it moves less than the market does, relatively
 - BRK-A has a very strong negative exposure (-0.46) to the Size Factor; like Apple, Berkshire Hathway is a huge company so this is to be expected
 - BRK-A has a very strong **positive** exposure (0.34) to the Value factor, which makes sense as they are commonly known as being owners of companies with high book-to-market ratios
@@ -168,7 +169,7 @@ At the beginning of the article, we outlined a hypothetical scenario in which we
 
 <p align="center"><img src="assets/img/factor_regressions/4.png" /></p>
 
-The S&P 500 index has a 0.0181 beta coefficient to the "value" factor, and the P>|t| value implies that there's a 6% likelyhood that this is purely by chance. So with this in mind as a "baseline", let's look at what we see when we examine the Blackrock's MSCI USA Value ETF...
+The S&P 500 index has a 0.0181 beta coefficient to the "value" factor, and the P>\|t\| value implies that there's a 6% likelyhood that this is purely by chance. So with this in mind as a "baseline", let's look at what we see when we examine the Blackrock's MSCI USA Value ETF...
 
 <p align="center"><img src="assets/img/factor_regressions/5.png" /></p>
 

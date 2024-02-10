@@ -28,22 +28,22 @@ For each of these return drivers above, I rank all companies in the S&P 500 from
 
 The investment universe is companies in the S&P 500 at the given time in the backtest, who have at least 1 year of price data, and who are not in the top 10% of firms ranked by Beta. There's evidence to suggest that extremely high beta firms generally don't do well in the long run so I filter those out across all tests. The backtest periods are from 1 January 2000 to 1 July 2023. I won't be sharing the nitty gritty details of these factors and their construction but the outcomes in general are indicative I think...
 
-|                  | Avg. Ann. Return | Avg. Ann. Std | Annual Sharpe | Worst  Loss 1Y | Winning  Years | Total Log  Return | Total  Compounded Return | Growth of $10k | 2000s Avg.  Annual Return | 2010s Avg.  Annual Return | 2020s Avg.  Annual Return |
-|------------------|------------------|---------------|---------------|----------------|----------------|--------------------------------|-----------------------------|-------------------------------|---------------------------|---------------------------|---------------------------|
-| Inventory Change |           10.30% |        20.50% |          0.50 |        -52.11% |         79.17% |                           247% |                       1086% |                      $108,575 |                     9.20% |                    11.13% |                    10.98% |
-| Asset Turnover   |           11.52% |        14.74% |          0.78 |        -29.84% |         87.50% |                           276% |                       1487% |                      $148,744 |                     7.96% |                    14.75% |                    12.36% |
-| ROE              |           11.42% |        17.08% |          0.67 |        -25.21% |         79.17% |                           274% |                       1450% |                      $145,002 |                     9.73% |                    14.61% |                     7.67% |
-| ROA              |            9.90% |        19.56% |          0.51 |        -49.22% |         83.33% |                           238% |                        976% |                       $97,572 |                     6.89% |                    13.55% |                     8.29% |
-| EBIT/EV          |            9.32% |        25.21% |          0.37 |        -52.24% |         75.00% |                           224% |                        837% |                       $83,693 |                     7.47% |                    15.27% |                    -0.90% |
-| FCF Per Share    |           12.92% |        29.92% |          0.43 |        -96.46% |         79.17% |                           310% |                       2119% |                      $211,947 |                    10.81% |                    16.38% |                     9.52% |
-| EBITDA Margin    |            8.76% |        23.35% |          0.38 |        -62.64% |         70.83% |                           210% |                        719% |                       $71,911 |                    12.40% |                     8.16% |                     1.16% |
-| FCF/Price        |           10.34% |        29.09% |          0.36 |        -70.58% |         62.50% |                           248% |                       1096% |                      $109,554 |                    12.83% |                     9.87% |                     5.28% |
-| Low Beta         |            8.87% |        11.03% |          0.80 |        -23.18% |         83.33% |                           213% |                        740% |                       $73,994 |                     7.98% |                    12.51% |                     1.97% |
-| ROCE             |            7.36% |        17.63% |          0.42 |        -54.32% |         83.33% |                           177% |                        485% |                       $48,501 |                     4.54% |                    12.62% |                     1.27% |
-| Momentum         |            7.37% |        24.29% |          0.30 |        -77.60% |         75.00% |                           177% |                        486% |                       $48,618 |                     2.45% |                    12.07% |                     7.91% |
-| Low Vol          |           10.17% |        11.43% |          0.89 |        -13.87% |         75.00% |                           244% |                       1049% |                      $104,946 |                     8.85% |                    13.43% |                     5.35% |
-| Cash/Assets      |            8.95% |        24.97% |          0.36 |        -73.99% |         70.83% |                           215% |                        756% |                       $75,611 |                     2.92% |                    14.87% |                     9.21% |
-| Price/Sales      |           10.35% |        28.25% |          0.37 |        -71.79% |         75.00% |                           249% |                       1100% |                      $110,034 |                    -0.17% |                    17.81% |                    18.05% |
+|                  | Avg. Ann. Return | Avg. Ann. Std | Annual Sharpe | Worst  Loss 1Y | Winning  Years |
+|------------------|------------------|---------------|---------------|----------------|----------------|
+| Inventory Change | 10.30%           | 20.50%        | 0.50          | -52.11%        | 79.17%         |
+| Asset Turnover   | 11.52%           | 14.74%        | 0.78          | -29.84%        | 87.50%         |
+| ROE              | 11.42%           | 17.08%        | 0.67          | -25.21%        | 79.17%         |
+| ROA              | 9.90%            | 19.56%        | 0.51          | -49.22%        | 83.33%         |
+| EBIT/EV          | 9.32%            | 25.21%        | 0.37          | -52.24%        | 75.00%         |
+| FCF Per Share    | 12.92%           | 29.92%        | 0.43          | -96.46%        | 79.17%         |
+| EBITDA Margin    | 8.76%            | 23.35%        | 0.38          | -62.64%        | 70.83%         |
+| FCF/Price        | 10.34%           | 29.09%        | 0.36          | -70.58%        | 62.50%         |
+| Low Beta         | 8.87%            | 11.03%        | 0.80          | -23.18%        | 83.33%         |
+| ROCE             | 7.36%            | 17.63%        | 0.42          | -54.32%        | 83.33%         |
+| Momentum         | 7.37%            | 24.29%        | 0.30          | -77.60%        | 75.00%         |
+| Low Vol          | 10.17%           | 11.43%        | 0.89          | -13.87%        | 75.00%         |
+| Cash/Assets      | 8.95%            | 24.97%        | 0.36          | -73.99%        | 70.83%         |
+| Price/Sales      | 10.35%           | 28.25%        | 0.37          | -71.79%        | 75.00%         |
 
 Of course if you were to implement these yourself, I recommend doing your own research (standard "This is not financial advice" disclaimer here). It's also important to reiterate that these are 10-position long only portfolios so your mileage will vary if you add more stocks.
 

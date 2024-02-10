@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Measuring Factor Exposure"
+title: "Non-Traditional Long Only Factor Returns"
 author: "Uncentive"
 categories: post
 tags: [Investing, Factors]

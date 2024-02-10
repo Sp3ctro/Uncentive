@@ -47,4 +47,4 @@ The investment universe is companies in the S&P 500 at the given time in the bac
 
 Of course if you were to implement these yourself, I recommend doing your own research (standard "This is not financial advice" disclaimer here). It's also important to reiterate that these are 10-position long only portfolios so your mileage will vary if you add more stocks.
 
-A csv file with the monthly returns for each return driver can be found here.
+A csv file with the monthly returns for each return driver can be found [here](https://github.com/Sp3ctro/Uncentive/blob/master/code/LongOnlyFactors.csv.csv).
